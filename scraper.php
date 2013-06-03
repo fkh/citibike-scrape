@@ -25,7 +25,7 @@ foreach($result as $key => $value) {
       . "$value->free,"
       . "$value->bikes)";
 
-        echo $value->name . " " . carto($db) . "\n";
+        echo $value->name . " " . carto($db, FALSE) . "\n";
         
     }
 }
